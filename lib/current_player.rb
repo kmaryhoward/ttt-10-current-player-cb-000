@@ -3,5 +3,5 @@ def turn_count(array)
   array.each do |cell|
     cell != " " ? counter += 1 : counter += 0
   end
-  puts counter
+  return counter
 end
